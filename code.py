@@ -2,7 +2,7 @@ import os
 import telebot
 import imdb
 
-my_secret = "5582564501:AAGHLIE4vzPumS8v1vDMuRBKfDToBQ4SmJY"
+my_secret = ....
 bot = telebot.TeleBot(my_secret)
 
 @bot.message_handler(func=lambda m: True)
